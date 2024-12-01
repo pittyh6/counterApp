@@ -5,32 +5,33 @@ import Counter from "./components/Counter";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [inputValue, setInputValue] = useState(1);
 
   function reset() {
     setCount(0);
+    setInputValue(1);
     console.log(count);
   }
   function add() {
-    let addValue = count + 1;
-    setCount(addValue);
+    setCount(count + inputValue);
   }
   function sub() {
-    let subValue = count - 1;
+    let subValue = count - 1 - inputValue;
     setCount(subValue);
   }
-  function inputValue(e) {
-    console.log(e.target.value);
+  function handleChange(e) {
+    setInputValue(e.target.value);
   }
-
   return (
     <main>
       <h1>Count</h1>
       <section className="counting">
         <p>{count}</p>
         <input
-          type="number"
+          type="text"
           placeholder="Insert a value for steps"
-          onClick={inputValue}
+          value={inputValue}
+          onChange={handleChange}
         />
         <button className="plus" onClick={add}>
           +
