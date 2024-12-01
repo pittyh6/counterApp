@@ -17,8 +17,8 @@ function App() {
     setCount(newValue);
   }
   function sub() {
-    let subValue = count - 1 - inputValue;
-    setCount(subValue);
+    let newValue = parseInt(count) - parseInt(inputValue);
+    setCount(newValue);
   }
   function handleChange(e) {
     setInputValue(e.target.value);
