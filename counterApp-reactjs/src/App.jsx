@@ -13,7 +13,8 @@ function App() {
     console.log(count);
   }
   function add() {
-    setCount(count + inputValue);
+    let newValue = parseInt(count) + parseInt(inputValue);
+    setCount(newValue);
   }
   function sub() {
     let subValue = count - 1 - inputValue;
