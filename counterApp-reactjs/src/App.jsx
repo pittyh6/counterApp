@@ -7,9 +7,15 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <Counter />
-    </>
+    <main>
+      <h1>Count</h1>
+      <section className="counting">
+        <p>0</p>
+        <button className="plus">+</button>
+        <button className="sub">-</button>
+        <button className="reset">Reset</button>
+      </section>
+    </main>
   );
 }
 
