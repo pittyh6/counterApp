@@ -18,13 +18,20 @@ function App() {
     let subValue = count - 1;
     setCount(subValue);
   }
+  function inputValue(e) {
+    console.log(e.target.value);
+  }
 
   return (
     <main>
       <h1>Count</h1>
       <section className="counting">
         <p>{count}</p>
-        <input type="number" placeholder="Insert a value for steps" />
+        <input
+          type="number"
+          placeholder="Insert a value for steps"
+          onClick={inputValue}
+        />
         <button className="plus" onClick={add}>
           +
         </button>
