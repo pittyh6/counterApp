@@ -24,11 +24,11 @@ function App() {
     setInputValue(e.target.value);
   }
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <h1 className="text-3xl font-bold my-10">Count</h1>
       <section className="counting">
         <input
-          className="w-20 "
+          className="w-26 rounded-md pl-2 my-3"
           type="text"
           placeholder="Insert a value for steps"
           value={inputValue}
@@ -45,7 +45,9 @@ function App() {
             Reset
           </button>
         </div>
-        <p className="text-3xl font-bold my-10">{count}</p>
+        <p className="break-words text-9xl font-bold my-10 text-[#1f6881] ">
+          {count}
+        </p>
       </section>
     </main>
   );
