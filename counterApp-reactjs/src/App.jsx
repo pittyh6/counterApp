@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import ReactDom from "react-dom/client";
 import "./App.css";
 import Counter from "./components/Counter";
 
@@ -25,7 +25,7 @@ function App() {
   }
   return (
     <main>
-      <h1>Count</h1>
+      <h1 className="text-3xl font-bold underline">Count</h1>
       <section className="counting">
         <p>{count}</p>
         <input
