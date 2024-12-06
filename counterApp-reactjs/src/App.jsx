@@ -25,24 +25,27 @@ function App() {
   }
   return (
     <main>
-      <h1 className="text-3xl font-bold underline">Count</h1>
+      <h1 className="text-3xl font-bold my-10">Count</h1>
       <section className="counting">
-        <p>{count}</p>
         <input
+          className="w-20 "
           type="text"
           placeholder="Insert a value for steps"
           value={inputValue}
           onChange={handleChange}
         />
-        <button className="plus" onClick={add}>
-          +
-        </button>
-        <button className="sub" onClick={sub}>
-          -
-        </button>
-        <button className="reset" onClick={reset}>
-          Reset
-        </button>
+        <div>
+          <button className="plus" onClick={add}>
+            +
+          </button>
+          <button className="sub" onClick={sub}>
+            -
+          </button>
+          <button className="reset" onClick={reset}>
+            Reset
+          </button>
+        </div>
+        <p className="text-3xl font-bold my-10">{count}</p>
       </section>
     </main>
   );
