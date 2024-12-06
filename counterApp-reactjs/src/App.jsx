@@ -25,7 +25,7 @@ function App() {
   }
   return (
     <main className="overflow-x-hidden">
-      <h1 className="text-3xl font-bold my-10">Count</h1>
+      <h1 className="text-3xl font-bold my-8 mt-36">Count</h1>
       <section className="counting">
         <input
           className="w-26 rounded-md pl-2 my-3"
@@ -41,7 +41,7 @@ function App() {
           <button className="sub" onClick={sub}>
             -
           </button>
-          <button className="reset" onClick={reset}>
+          <button className="reset w-24" onClick={reset}>
             Reset
           </button>
         </div>

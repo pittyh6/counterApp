@@ -10,6 +10,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgba(49, 49, 98, 0.478);
+  background-color: rgba(49, 49, 98, 0.283);
   text-align: center;
+}
+button {
+  border-radius: 10px;
+  background-color: rgba(18, 60, 94, 0.506);
+  width: 55px;
+  height: 35px;
+  margin: 5px 10px;
+  color: #fff;
 }
