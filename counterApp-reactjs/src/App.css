@@ -21,3 +21,6 @@ button {
   margin: 5px 10px;
   color: #fff;
 }
+button:active {
+  background-color: #1094ff81;
+}
