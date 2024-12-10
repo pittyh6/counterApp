@@ -10,10 +10,10 @@
 
 # Result
 
-![Begin Banner](/final.jpg)
+![Begin Banner](/finalReactNative.jpg)
 
 ## Counter App using Swift (counterApp-swift)
 
 # Result
 
-![Begin Banner](/final.jpg)
+![Begin Banner](/finalSwift.jpg)
