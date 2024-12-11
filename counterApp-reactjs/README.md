@@ -9,4 +9,4 @@ Add input fields to set a custom step value.
 
 # Result
 
-![Begin Banner](/public/final.jpg)
+![Begin Banner](/final.jpg)
