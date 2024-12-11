@@ -10,7 +10,8 @@
 
 # Result
 
-![Begin Banner](/finalReactNative.jpg =100x20)
+<!-- ![Begin Banner](/finalReactNative.jpg =100x20) -->
+<img src="/finalReactNative.jpg" alt="Begin Banner" width="100" height="20">
 
 ## Counter App using Swift (counterApp-swift)
 
