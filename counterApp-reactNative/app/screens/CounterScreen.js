@@ -44,7 +44,7 @@ function CounterScreen(props) {
                         <Text>-</Text>
                     </View>
                 </TouchableHighlight>
-                <TouchableHighlight onPress={() => { setCounter(0), setInputValue(1) }}>
+                <TouchableHighlight onPress={() => { setCounter(0), setInputValue("1") }}>
                     <View style={[styles.button, styles.buttonReset]}>
                         <Text>Reset</Text>
                     </View>
