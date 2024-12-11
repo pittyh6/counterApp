@@ -9,4 +9,5 @@ Add input fields to set a custom step value.
 
 # Result
 
-![Begin Banner](/finalReactNative.jpg)
+<!-- ![Begin Banner](/finalReactNative.jpg) -->
+<img src="/finalReactNative.jpg" alt="Begin Banner" width="340" height="600">
