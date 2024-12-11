@@ -3,5 +3,6 @@ export default {
     buttonBg: 'rgba(18, 60, 94, 0.506)',
     white: '#fff',
     black: '#000',
-    buttonHoverBg: '#1094ff81'
+    buttonHoverBg: '#1094ff81',
+    resultText: 'rgb(31 104 129)',
 }
