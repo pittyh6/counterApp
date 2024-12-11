@@ -4,10 +4,10 @@
 
 ![Begin Banner](/final.jpg)
 
-## Counter App using React Native (counterApp-reactnative)
+## Counter App using React Native and Expo (counterApp-reactnative)
 
 <!-- ![Begin Banner](/finalReactNative.jpg =100x20) -->
-<img src="/finalReactNative.jpg" alt="Begin Banner" width="540" height="1000">
+<img src="/finalReactNative.jpg" alt="Begin Banner" width="340" height="900">
 
 ## Counter App using Swift (counterApp-swift)
 
