@@ -2,19 +2,13 @@
 
 ## Counter App using React JS with Vite and Tailwindcss (counterApp-reactjs)
 
-# Result
-
 ![Begin Banner](/final.jpg)
 
 ## Counter App using React Native (counterApp-reactnative)
 
-# Result
-
 <!-- ![Begin Banner](/finalReactNative.jpg =100x20) -->
-<img src="/finalReactNative.jpg" alt="Begin Banner" width="100" height="20">
+<img src="/finalReactNative.jpg" alt="Begin Banner" width="540" height="1000">
 
 ## Counter App using Swift (counterApp-swift)
-
-# Result
 
 ![Begin Banner](/finalSwift.jpg)
