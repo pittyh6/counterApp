@@ -11,12 +11,6 @@ function App() {
     setCount(0);
     setInputValue(1);
   }
-  function add() {
-    setCount((count) => parseInt(count) + parseInt(inputValue));
-  }
-  function sub() {
-    setCount((count) => parseInt(count) - parseInt(inputValue));
-  }
   function handleChange(e) {
     setInputValue(e.target.value);
   }
@@ -32,10 +26,20 @@ function App() {
           onChange={handleChange}
         />
         <div>
-          <button className="plus" onClick={add}>
+          <button
+            className="plus"
+            onClick={() =>
+              setCount((count) => parseInt(count) + parseInt(inputValue))
+            }
+          >
             +
           </button>
-          <button className="sub" onClick={sub}>
+          <button
+            className="sub"
+            onClick={() =>
+              setCount((count) => parseInt(count) - parseInt(inputValue))
+            }
+          >
             -
           </button>
           <button className="reset w-24" onClick={reset}>
