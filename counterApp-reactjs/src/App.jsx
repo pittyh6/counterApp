@@ -10,15 +10,12 @@ function App() {
   function reset() {
     setCount(0);
     setInputValue(1);
-    console.log(count);
   }
   function add() {
-    let newValue = parseInt(count) + parseInt(inputValue);
-    setCount(newValue);
+    setCount((count) => parseInt(count) + parseInt(inputValue));
   }
   function sub() {
-    let newValue = parseInt(count) - parseInt(inputValue);
-    setCount(newValue);
+    setCount((count) => parseInt(count) - parseInt(inputValue));
   }
   function handleChange(e) {
     setInputValue(e.target.value);
